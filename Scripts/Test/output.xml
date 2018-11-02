@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.4 (Python 3.7.1 on win32)" generated="20181102 15:48:34.537">
+<suite id="s1" name="Launchapp" source="C:\Users\x19430\AppData\Local\Programs\Python\Python37\Scripts\Test\launchapp.robot">
+<test id="s1-t1" name="Valid Login">
+<kw name="Open Browser To Login Page">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20181102 15:48:34.774" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20181102 15:48:34.774" endtime="20181102 15:48:38.639"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20181102 15:48:38.639" endtime="20181102 15:48:39.758"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" starttime="20181102 15:48:39.758" endtime="20181102 15:48:39.758"></status>
+</kw>
+<status status="PASS" starttime="20181102 15:48:34.773" endtime="20181102 15:48:39.759"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library" type="teardown">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20181102 15:48:39.759" endtime="20181102 15:48:43.831"></status>
+</kw>
+<status status="PASS" starttime="20181102 15:48:34.773" endtime="20181102 15:48:43.832" critical="yes"></status>
+</test>
+<doc>This is a simple test with Robot Framework</doc>
+<status status="PASS" starttime="20181102 15:48:34.543" endtime="20181102 15:48:43.834"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Launchapp">Launchapp</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
