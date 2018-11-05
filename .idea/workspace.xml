@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="453115f6-2d01-44cd-be8b-b849d9f8abd7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/TestRobot.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Auto.robot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LaunchApp.robot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/.idea/Scripts.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/Test/geckodriver.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/Test/log.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/Test/output.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/Test/report.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/chromedriver.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/easy_install-3.7.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/easy_install.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/pip.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/pip3.7.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/pip3.exe" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/pybot.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/rebot.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/robot.bat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testone" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/Test/Auto.robot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scripts/Test/LaunchApp.robot" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Auto.robot" afterPath="$PROJECT_DIR$/Scripts/Test/Auto.robot" />
+      <change beforePath="$PROJECT_DIR$/LaunchApp.robot" afterPath="$PROJECT_DIR$/Scripts/Test/LaunchApp.robot" />
+      <change beforePath="$PROJECT_DIR$/testone" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +17,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Auto.robot" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scripts/Test/Auto.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaunchApp.robot" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scripts/Test/LaunchApp.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +81,17 @@
               <item name="TestRobot" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestRobot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRobot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRobot" type="462c0819:PsiDirectoryNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -88,6 +103,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Automation\TestRobot\Scripts\Test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Automation\TestRobot" />
     </key>
@@ -122,8 +140,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -154,9 +173,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#124#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -172,6 +189,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Test/LaunchApp.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scripts/Test/Auto.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
           <folding />
         </state>
       </provider>
